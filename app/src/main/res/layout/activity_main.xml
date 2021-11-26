@@ -3,10 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8BC34A"
     tools:context=".MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
     <!-- Text view for result view-->
+
+    <!--take the input first number-->
     <TextView
         android:id="@+id/textView_answer"
         android:layout_width="200dp"
@@ -17,7 +20,6 @@
         android:textSize="20sp"
         android:textStyle="bold" />
 
-    <!--take the input first number-->
     <EditText
         android:id="@+id/editText_first_no"
         android:layout_width="150dp"
@@ -34,6 +36,7 @@
         android:layout_height="25dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
+        android:background="#E6D8D8"
         android:text="@string/first_number"
         android:textSize="20sp" />
 
@@ -44,6 +47,7 @@
         android:layout_height="25dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="100dp"
+        android:background="#E8DFDF"
         android:text="@string/second_number"
         android:textSize="20sp" />
 
@@ -63,8 +67,8 @@
 
     <Button
         android:id="@+id/add_button"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginStart="110dp"
         android:layout_marginTop="200dp"
         android:text="@string/add" />
